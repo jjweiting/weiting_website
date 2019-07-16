@@ -15,11 +15,8 @@ class ResumeController extends BaseController
 
     public function index()
     {
-        // return File::get(public_path().'/resume.pdf');
-        // dd('resume');
         $filename = 'resume.pdf';
         $path = public_path($filename);
-        // dd($path);
         return Response::make(file_get_contents($path), 200, [
             'Content-Type' => 'application/pdf',
             'Content-Disposition' => 'inline; filename="'.$filename.'"'

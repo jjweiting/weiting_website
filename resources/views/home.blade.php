@@ -4,7 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>weiting HOME</title>
+        <title>JJweiting</title>
+        <link rel="icon" href="{!! asset('icons/ppp.ico') !!}"/>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -85,9 +86,10 @@
                 </div>
 
                 <div class="links">
-                    @if (Route::has('resume.pdf'))
+                    <!-- @if (Route::has('resume.pdf'))
                     <a href="{{ route('resume.pdf') }}">RESUME</a>
-                    @endif
+                    @endif -->
+                    <a href="https://hackmd.io/@f8-kaP9aQyCB42x0IE9LTA/jjweiting-resume">Resume</a>
                     <a href="https://github.com/jjweiting">GitHub</a>
                     <a href="https://gist.github.com/jjweiting">Docs</a>
                     <a href="https://www.linkedin.com/in/jjweiting">Linkedin</a>

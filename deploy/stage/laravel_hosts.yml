@@ -1,0 +1,11 @@
+jjweiting.com:
+  port: 1226
+  user: wei
+  identity_file:
+    public_key:  ~/.ssh/id_rsa.pub
+    private_key: ~/.ssh/id_rsa
+    password: ''
+  stage: production
+  branch: master
+  composer_options: install --verbose --prefer-dist --no-progress --no-interaction --optimize-autoloader
+  deploy_path: /home/wei/laravel_web
